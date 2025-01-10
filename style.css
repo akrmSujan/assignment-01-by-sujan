@@ -4,3 +4,181 @@
     font-weight: <weight>;
     font-style: normal;
   }
+.rong{
+    background: rgba(72, 61, 61, 0.104);
+}
+.banner{
+    display: flex;
+    align-items: center;
+    width: 1280px;
+height: 560px;
+margin-left: 120px;
+margin-right: 120px;
+justify-content: space-around;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+}
+.bangladesh{
+    width: 520px;
+height: 340px;
+margin-top: 40px;
+}
+.twoo{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.passage{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 52px;
+    font-weight: 700;
+}
+.passage-box{
+   margin-top: -30px;
+}
+.explore{
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+width: 270px;
+height: 56px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+margin-top: -10px;
+border: none;
+}
+.sritisodoa{
+    width: 474.03px;
+height: 400px;
+}
+.carbox-container{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    margin-top: 32px;
+}
+ .vision{
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 1280px ;
+    /* height: 480px; */
+ }
+.head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 37px;
+font-weight: 700;
+}
+.description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 14px;
+font-weight: 400;
+}
+.cardboxone{
+    width: 410.67px;
+    height: 325px;
+    padding: 30px;
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+}
+.cardboxtwo{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+padding-top: 40px;
+padding: 30px;
+}
+.cardboxthree{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+padding-top: 40px;
+padding: 30px;
+}
+.heading{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+}
+.btnone{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+.btntwo{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+}
+.btnthree{
+    width: 122px;
+height: 41px;
+border-radius: 8px;
+background: rgb(84, 144, 245);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+border: none;
+margin-top: 20px;
+}
+.descriptionone{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    width: 346.67px;
+height: 72px;
+}
+.descriptiontwo{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    width: 346.67px;
+height: 48px;
+}
+.descriptionthree{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    width: 346.67px;
+height: 48px;
+}
+.news-section{
+    width: 1280px;
+height: 402px;
+margin-left: 120px;
+margin-right: 120px;
+}
+.newsbox{
+    display: flex;
+    padding: 48px;
+}
+  
