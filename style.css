@@ -529,3 +529,27 @@ text-align: center;
 .connetct-link{
     margin-left: 20px;
 }
+.younus{
+    width: 1280px;
+    height: 256px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 100px 40px 48px 40px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 40px 89px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+.name{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+.speech{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
