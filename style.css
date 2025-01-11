@@ -131,9 +131,8 @@ padding: 30px;
     width: 410.67px;
     height: 325px;
     box-sizing: border-box;
-border-radius: 16px;
-background: rgb(198, 228, 214);
-padding-top: 40px;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
 padding: 30px;
 }
 .heading{
@@ -153,6 +152,23 @@ font-weight: 700;
     font-weight: 600;
     border: none;
     cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.btnone:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+height: 0%;
+top: 0;
+left: 0;
+background-color: red;
+transition: 0.5s;
+z-index: -1;
+}
+.btnone:hover:before{
+    height: 100%;
+    border-radius: 8px;
 }
 .btntwo{
     width: 122px;
@@ -168,6 +184,23 @@ font-weight: 700;
     border: none;
     margin-top: 20px;
     cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.btntwo:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+height: 0%;
+top: 0;
+left: 0;
+background-color: green;
+transition: 0.5s;
+z-index: -1;
+}
+.btntwo:hover:before{
+    height: 100%;
+    border-radius: 8px;
 }
 .btnthree{
     width: 122px;
@@ -181,6 +214,23 @@ font-weight: 600;
 border: none;
 margin-top: 20px;
 cursor: pointer;
+position: relative;
+z-index: 1;
+}
+.btnthree:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+height: 0%;
+top: 0;
+left: 0;
+background-color: gray;
+transition: 0.5s;
+z-index: -1;
+}
+.btnthree:hover:before{
+    height: 100%;
+    border-radius: 8px;
 }
 .descriptionone{
     color: rgba(14, 14, 14, 0.7);
@@ -237,7 +287,24 @@ font-size: 18px;
 font-weight: 600;
 border: none;
 cursor: pointer;
+position: relative;
+z-index: 1;
  }
+ .news-button:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+height: 0%;
+top: 0;
+left: 0;
+background-color: midnightblue;
+transition: 0.5s;
+z-index: -1;
+}
+.news-button:hover:before{
+    height: 100%;
+    border-radius: 8px;
+}
  .date-time{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -292,7 +359,24 @@ border-radius: 16px;
 background: rgb(255, 255, 255);
 margin-left: 24px;
 cursor: pointer;
+position: relative;
+z-index: 1;
  }
+ .donate-button:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+height: 0%;
+top: 0;
+left: 0;
+background-color: rgb(210, 128, 35);
+transition: 0.5s;
+z-index: -1;
+}
+.donate-button:hover:before{
+    height: 100%;
+    border-radius: 16px;
+}
  .donate-buttonone{
     width: 243px;
 height: 128px;
@@ -302,7 +386,24 @@ border-radius: 16px;
 background: rgb(198, 228, 214);
 margin-left: 24px;
 cursor: pointer;
+position: relative;
+z-index: 1;
  }
+ .donate-buttonone:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+height: 0%;
+top: 0;
+left: 0;
+background-color: mediumslateblue;
+transition: 0.5s;
+z-index: -1;
+}
+.donate-buttonone:hover:before{
+    height: 70%;
+    border-radius: 16px;
+}
  .donate-input{
     width: 1032px;
 height: 64px;
