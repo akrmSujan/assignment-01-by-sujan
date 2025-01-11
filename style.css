@@ -176,9 +176,61 @@ height: 48px;
 height: 402px;
 margin-left: 120px;
 margin-right: 120px;
+border-radius: 24px;
 }
 .newsbox{
     display: flex;
-    padding: 48px;
+    padding: 56px;
+    gap: 32px;
+    border-radius: 24px;
+background: rgb(255, 255, 255);
 }
-  
+.news-image {
+    border-radius: 24px;
+}
+ .newsframe{
+    width: 720px;
+height: 290px;
+ } 
+ .news-button{
+    width: 139px;
+height: 48px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+border: none;
+ }
+ .date-time{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .news-heading{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .date {
+    margin-left: 15px;
+ }
+ .newsboxtwo {
+    margin-top: 15px ;
+    display: flex;
+    padding: 56px;
+    gap: 32px;
+    border-radius: 24px;
+background: rgb(255, 255, 255);
+ }
+ .newsboxthree {
+    margin-top: 15px ;
+    display: flex;
+    padding: 56px;
+    gap: 32px;
+    border-radius: 24px;
+background: rgb(255, 255, 255);
+ }
