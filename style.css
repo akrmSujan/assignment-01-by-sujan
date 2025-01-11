@@ -55,6 +55,37 @@ cursor: pointer;
     width: 474.03px;
 height: 400px;
 }
+.bdpillars{
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 1280px ;
+    margin-top: 40px;
+}
+.pillar-box-container{
+display: flex;
+gap: 20px;
+}
+.pillar-box{
+    width: 350px;
+    height: 360px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 20px;
+}
+.pillars-head{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+}
+.pillar-discrpt{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
 .carbox-container{
     display: flex;
     justify-content: center;
